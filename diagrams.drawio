@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2024-04-28T23:51:33.715Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fyhbQ70OkbfzfxswNMci" version="24.3.1" type="google">
+  <diagram name="第 1 页" id="f8ZVSX9Y7GZTVcseFTYB">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2knW3ZEguSAUBZNEyywe-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-31" target="2knW3ZEguSAUBZNEyywe-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-31" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-32" target="2knW3ZEguSAUBZNEyywe-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-38" value="Yes / Count &amp;gt; 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2knW3ZEguSAUBZNEyywe-37">
+          <mxGeometry x="-0.125" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-32" target="2knW3ZEguSAUBZNEyywe-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-56" value="No/Count =0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2knW3ZEguSAUBZNEyywe-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-32" value="Feature 1: Verify Whether a Question Has Been Answered" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-36" target="2knW3ZEguSAUBZNEyywe-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-36" value="Feature 2: Identify the Best Answer Based on Its Score" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-39" value="A.id,&lt;div&gt;A.owner_user_id,&lt;/div&gt;&lt;div&gt;A.body,&lt;/div&gt;&lt;div&gt;A.score&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-43" value="Feature 3: Check Total Comments Scores on a Specific Answer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-39" target="2knW3ZEguSAUBZNEyywe-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="810" as="sourcePoint" />
+            <mxPoint x="174" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="398" y="740" />
+              <mxPoint x="194" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-45" value="A.id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2knW3ZEguSAUBZNEyywe-44">
+          <mxGeometry x="0.1662" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-46" value="Feature 4: Check User Activity with Total Number of Badge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-47" value="Feature 5: Verify the Users Reputation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-39" target="2knW3ZEguSAUBZNEyywe-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="654" y="700" as="sourcePoint" />
+            <mxPoint x="594" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="398" y="740" />
+              <mxPoint x="594" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-49" value="&lt;div style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;A.owner_user_id,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2knW3ZEguSAUBZNEyywe-48">
+          <mxGeometry x="0.1662" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2knW3ZEguSAUBZNEyywe-39" target="2knW3ZEguSAUBZNEyywe-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="730" as="sourcePoint" />
+            <mxPoint x="364" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-53" value="&lt;div style=&quot;font-size: 12px; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;A.owner_user_id,&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2knW3ZEguSAUBZNEyywe-52">
+          <mxGeometry x="0.3619" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2knW3ZEguSAUBZNEyywe-54" value="Stop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
